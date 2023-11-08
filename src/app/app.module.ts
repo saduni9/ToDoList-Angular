@@ -18,6 +18,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { TimeComponent } from './time/time.component';
 import { NotesComponent } from './notes/notes.component';
+import { DrawingComponent } from './drawing/drawing.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { NotesComponent } from './notes/notes.component';
     NavbarComponent,
     TodoComponent,
     TimeComponent,
-    NotesComponent
+    NotesComponent,
+    DrawingComponent
   ],
   imports: [
     BrowserModule,
