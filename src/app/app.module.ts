@@ -16,13 +16,17 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { ReactiveFormsModule } from '@angular/forms';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { TimeComponent } from './time/time.component';
+import { NotesComponent } from './notes/notes.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TodoComponent
+    TodoComponent,
+    TimeComponent,
+    NotesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,75 @@
+.plan--header {
+    display: flex;
+    align-items: center;
+    background-color: #a941a4; 
+    color: #fff; 
+    padding: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+
+   
+    .ecart-logo {
+        font-size: 35px; 
+        font-weight: bold; 
+        color: #fff; 
+        text-transform: uppercase; 
+        margin-right: 20px;
+        font-family: 'Concert One', sans-serif; 
+    }
+
+   
+    .ecart--header-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        
+        .ecart-top-bar a {
+            color: #fff; 
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        
+    }
+
+
+    
+    
+
+        
+        .ecart-menu a {
+            color: #fff; 
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        
+        .ecart-searchbar {
+            display: flex;
+            align-items: center;
+
+            .ecart-search-box {
+                padding: 5px;
+                border: 1px solid #ccc; 
+                border-radius: 3px;
+                margin-right: 10px;
+            }
+
+            .ecart-search-btn {
+                background-color: #84a67e; 
+                color: #fff; 
+                border: none;
+                padding: 5px 10px;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 35px;
+                height: 25px;
+
+                // Style the search button icon
+                i {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
